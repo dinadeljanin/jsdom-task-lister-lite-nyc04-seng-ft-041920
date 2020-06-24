@@ -50,9 +50,9 @@ If you finish early, try to implement one or more of the following:
 - [x] A delete function that will remove tasks from your list
 - [x] A priority value selected from a dropdown that is used to determine the color of the text in the list (e.g. red for high priority, yellow for medium, green for low)
   - [ ] As a challenge, implement a sorting functionality that displays the tasks ascending or descending order based on priority
-- [ ] An additional input field (e.g. user, duration, date due)
+- [x] An additional input field (e.g. user, duration, date due)
 - [ ] Ability to edit tasks
-- [ ] Something of your choice! The main objective is to add a feature that allows the user's input to affect the DOM
+- [x] Something of your choice! The main objective is to add a feature that allows the user's input to affect the DOM
 
 [example]: https://learn-co-curriculum.github.io/js-task-lister-lite/
 [mdn-pd]: https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault

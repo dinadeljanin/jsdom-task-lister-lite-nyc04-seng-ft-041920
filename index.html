@@ -11,10 +11,12 @@
     <h1>Task Lister Lite™️</h1>
 
     <form id="create-task-form" action="#" method="post">
-      <label for="new-task-description">Task description:</label>
-      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <input type="text" id="new-user" name="new-user" placeholder="User Name">
+      <input type="text" id="new-task-description" name="new-task-description" placeholder="Task description">
+      <input type="time" id="new-duration" name="new-duration" placeholder="Duration">
+      <input type="date" id="new-due-date" name="new-due-date" placeholder="Due Date">
       <select name="new-task-priority" id="new-task-priority">
-        <option value="priorityName">Priority</option>
+        <option value="priorityName" disabled>Priority</option>
         <option value="low">Low</option>
         <option value="medium">Medium</option>
         <option value="high">High</option>
@@ -25,6 +27,14 @@
     <div id="list">
       <h2>My Todos</h2>
       <!-- i don't want this to be a UL anymore -->
+      <table id="tasks">
+        <select name="sortBy" id="sortBy">
+          <label for="sortBy">Sort By Priority</label>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </table>
       <ul id="tasks">
       </ul>
     </div>
