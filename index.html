@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Flatiron Task Lister</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="./src/index.js" defer></script>
 </head>
 <body>
   <div id="main-content">
@@ -12,16 +13,22 @@
     <form id="create-task-form" action="#" method="post">
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <select name="new-task-priority" id="new-task-priority">
+        <option value="priorityName">Priority</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
       <input type="submit" value="Create New Task">
     </form>
 
     <div id="list">
       <h2>My Todos</h2>
+      <!-- i don't want this to be a UL anymore -->
       <ul id="tasks">
       </ul>
     </div>
 
-    <script src="./src/index.js"></script>
   </div>
 
 </body>

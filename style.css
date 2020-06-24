@@ -35,3 +35,18 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+li {
+  height: fit-content;
+  /* width: fit-content; */
+  padding: 0 15px;
+  /* width: 100px; */
+}
+
+button {
+  text-align: center;
+  height: 25px;
+  width: 40px;
+  /* background-color: red; */
+  /* margin-left: 10px; */
+}
